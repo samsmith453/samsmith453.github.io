@@ -1,0 +1,305 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.responsiveimg{
+   max-height: 100%;
+   max-width: 100%;
+}
+
+#attrib{
+   font-size: 20px;
+   margin-top: 80vh;
+   font-family: "Lobster";
+   text-align: right;
+   padding-left: 15vw;
+}
+
+.container{
+   width: 100%;
+}
+
+#bigimg{
+   width: 100%;
+   height: 54vw;
+   background-image: url("https://ae01.alicdn.com/kf/HTB1DrvDNpXXXXXBaXXXq6xXFXXXB/Props-male-half-body-font-b-mannequin-b-font-male-font-b-suit-b-font-clothes.jpg");
+   background-size: 100%;
+   background-position: top;
+   background-repeat: no-repeat;
+   display: flex;
+   -webkit-filter: brightness(100%);
+}
+
+#header{
+   width: 40%;
+   margin-left: 18%;
+   margin-top: 5vw;
+}
+
+
+#logodiv{
+   width: 10vw;
+   height: 10vw;
+   margin-left: 2vw;
+   padding-top: 2vw;
+}
+
+#logo{
+   border: 2px black solid;
+}
+
+#scroller{
+   margin-top: 5vw;
+   border: solid red 2px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: white;
+   color: black;
+}
+
+#scroller:hover{
+   color: red;
+   font-size: 25px;
+}
+
+
+#blackbar{
+   height: 4vw;
+   width: 100%;
+   background-color: black;
+   color: white;
+   font-family: 'Pacifico', cursive;
+   padding-left: 5%;
+   line-height: 4vw;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   z-index: 3;
+}
+
+#barplaceholder{
+   height: 4vw;
+}
+
+.social{
+   height: 3vw;
+   margin-right: 2vw;
+   color: white;
+}
+
+.social:hover{
+   border-bottom: 5px white solid;
+}
+
+
+
+
+.fixit{
+   position: fixed;
+   top: 0;
+}
+
+#bartitle{
+   margin-right: auto;
+}
+
+
+
+
+#pubs{
+   height: 6vw;
+   width: 100%;
+   line-height: 6vw;
+
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   padding-bottom: 3vw;
+   border-top: black 2px solid;
+}
+
+#map{
+   width: 500px;
+   margin: auto;
+   margin-top: 5vw;
+}
+
+#rating{
+   display: flex;
+   margin-left: 10vw;
+   margin-bottom: 1vw;
+}
+
+.star{
+   width: 2vw;
+}
+
+#row1{
+   display: flex;
+   flex-wrap: wrap;
+   padding-bottom: 4vw;
+}
+
+.comment{
+   margin-bottom: 1vw;
+   margin-left: 2vw;
+}
+
+#ratecont{
+   width: 30%;
+   margin-left: 10%;
+   margin-top: 5vh;
+
+}
+
+.indivrev{
+   display: flex;
+   align-items: center;
+}
+
+.profimg{
+   width: 8vw;
+   height: 8vw;
+   border-radius: 40px;
+}
+
+#googleimg{
+   width: 10vw;
+   margin-left: 10vw;
+}
+#revlink, a, a:visited{
+   color: black;
+   text-decoration: none;
+}
+
+#revlink, a:hover{
+   text-decoration: none;
+}
+
+#content2{
+   background-color: black;
+   color: white;
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+#photogallery{
+
+   margin-left: 5vw;
+   margin-right: 5vw;
+   background-color: black;
+   height: 60vh;
+
+}
+
+
+.currslide{
+   padding: auto;
+   border: 5px white solid;
+   margin-top: auto;
+   margin-bottom: auto;
+   height: 60vh;
+}
+
+.arrow{
+   color: white;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+#logostrip{
+   margin-top: 1vh;
+   padding-bottom: 1vh;
+   display: flex;
+   justify-content: space-around;
+   height: 13vh;
+   border-bottom: black 2px solid;
+}
+
+#row2{
+   display: flex;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-around;
+}
+
+.brands{
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   background-color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 2vh;
+}
+
+
+.producttext{
+
+   color: black;
+
+   font-size: 2vw;
+   font-weight: 100;
+   font-family: "Lobster", cursive;
+}
+
+.grey{
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   max-height: 40vh;
+   z-index: 1;
+}
+
+#store{
+   margin-top: 2vw;
+   margin-bottom: 4vw;
+   border: solid red 2px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: white;
+   color: black;
+}
+
+#store:hover{
+   color: red;
+   font-size: 22px;
+}
+
+#content3{
+   text-align: center;
+}
+
+#content4{
+   padding-top: 7vh;
+   background-color: black;
+   height: 40vh;
+   display: flex;
+   justify-content: space-around;
+}
+
+#hourcontainer{
+
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+   font-size: 1.5vw;
+   color: white;
+   font-family: "Open Sans", sans-serif;
+}
+
+#number{
+   margin-top: 3vh;
+   font-size: 2vw;
+   color: white;
+   font-family: "Open Sans", sans-serif;
+}
