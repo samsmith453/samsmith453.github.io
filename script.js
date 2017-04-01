@@ -51,6 +51,26 @@ $(document).ready(function(){
          }, 300);
       }
    });
+
+   // modal
+   $("#modalOpen").click(function(){
+      $(".modalBackground").css({"display" : "block"});
+   });
+
+   $(".close").click(function(){
+      $(".modalBackground").css({"display" : "none"});
+   })
+   // modal end
+
+   // overlay
+
+   $(".centreImage").hover(function(){
+      $(".overlayButton").css({"display": "block"});
+   }, function(){
+      $(".overlayButton").css({"display": "none"});
+   });
+
+   //overlay end
 });
 
 
@@ -59,7 +79,8 @@ function updatePic(){
    if(p>pics.length-1) p=0;
    if(p<0) p=pics.length-1;
 
-   $(".centreImage").html('<img src="'+pics[p].url+'">');
+   $(".centreImage").html('<img class="imageElement" src="'+pics[p].url+'"><div class="overlayWrapper">\
+   <a href="'+pics[p].goToUrl+'" target="_blank"><div class="overlayButton">'+pics[p].goTo+'</div></a></div>');
    $(".text").html("<h2>"+pics[p].title+"</h2>"+pics[p].text);
 
 

@@ -11,6 +11,66 @@ body{
 
 /*end standards*/
 
+/*modal*/
+
+.modalBackground{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.4);
+   z-index: 200;
+   display: none;
+   padding-top: 20vh;
+}
+
+.modalContent{
+   margin-left: auto;
+   margin-right: auto;
+   width: 400px;
+   height: auto;
+   background-color: white;
+   border: 4px solid rgb(86 , 32, 175);
+   padding: 10px 15px 10px 15px;
+}
+
+.close{
+   margin-left: auto;
+   width: 20px;
+   display: block;
+   font-size: 2rem;
+   color: #00add0;
+   cursor: pointer;
+}
+
+textarea{
+   box-sizing: border-box;
+	width: 100%;
+   resize: none;
+}
+
+input{
+   width: 98%;
+}
+
+input, textarea{
+   font-size: 1.2rem;
+   border: 0;
+   border-bottom: 3px #00c78b solid;
+}
+
+input.send{
+   width:50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+   cursor: pointer;
+}
+
+/*modal end*/
+
 /*header*/
 .header{
    position: fixed;
@@ -48,6 +108,7 @@ body{
 }
 
 .social i{
+   color: white;
    margin-left: 1vw;
    cursor: pointer;
    /*color: #00c78b;*/
@@ -77,12 +138,45 @@ body{
    align-items: center;
    justify-content: space-between;
    width: 100%;
+   height: 300px;
 }
 
 .centreImage img{
    width: 400px;
    height: auto;
+   z-index: 10;
 }
+
+/*overlay*/
+
+.centreImage:hover .imageElement{
+   filter: brightness(30%);
+}
+
+.overlayButton{
+   transform: translate(130px, -170px);
+   display: none;
+   height: 30px;
+   width: 150px;
+   line-height: 30px;
+   background-color: rgba(255, 255, 255, 0.8);
+   font-size: 1rem;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.overlayButton:hover{
+   border: #00c78b 2px solid;
+   padding: 3px;
+}
+
+.overlayWrapper{
+   height: 30px;
+}
+
+/*overlay end*/
 
 .leftImage img, .rightImage img{
    width: 150px;
@@ -100,8 +194,8 @@ body{
 .text{
    margin-left: auto;
    margin-right: auto;
-   width: 40vw;
-   height: 250px;
+   width: 550px;
+   height: 300px;
 }
 
 .text p{

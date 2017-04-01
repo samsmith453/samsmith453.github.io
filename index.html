@@ -12,19 +12,38 @@
       <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
    </head>
    <body>
+
+      <!-- moda -->
+
+      <div class="modalBackground">
+         <div class="modalContent">
+            <div class="close">
+               X
+            </div>
+            <form action="https://formspree.io/samsmith453@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="What should I call you?"><br>
+                <input type="text" name="contact" placeholder="How can I reach you? [email or phone]">
+                <textarea name="message" rows="5" cols="80" placeholder="How can I help you?"></textarea>
+                <input type="submit" class="send" value="Send">
+            </form>
+         </div>
+      </div>
+
+      <!-- modal end -->
+
       <div class="header row">
          <div class="menu row">
             <div class="menuItem" id="work">Work</div>
             <div> // </div>
-            <div class="menuItem">Get in touch</div>
+            <div class="menuItem" id="modalOpen">Get in touch</div>
             <div> // </div>
             <div class="menuItem" id="about">About</div>
          </div>
 
          <div class="social row">
-            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+            <a href="https://twitter.com/samsmith453" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/samsmith453" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="http://codepen.io/samsmith453/" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
          </div>
       </div>
 
@@ -48,7 +67,7 @@
             <p>I like solving complex problems & working with data.</p>
             <p>I have learned HTML & CSS but I don't like desiging.</p>
             <p>I enjoy working in Javascript and Node.js</p>
-            <p>I am currently learning about machine learning, neural networks and AI.</p>
+            <p>I am currently learning about machine learning, neural networks and AI, python and more node.</p>
          </div>
 
       </div>
