@@ -221,13 +221,17 @@ input.send{
 }
 
 .myPic{
-   width: 300px;
-   margin-left: 100px;
+   width: 400px;
+   height: auto;
+   margin-left: 50px;
 }
 
 .about{
    margin-left: auto;
-   width: 60%;
+   margin-right: 50px;
+   width: 50%;
    border-top: 2px solid #00c78b;
    /*background-color: rgba(81, 98, 111, 0.6);*/
+   padding-right: 20px;
+   padding-left: 20px;
 }
