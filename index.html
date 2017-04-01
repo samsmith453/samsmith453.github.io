@@ -2,77 +2,55 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title></title>
       <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-      <title>
-         Sam Smith
-      </title>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.js'></script>
+      <script src="script.js" charset="utf-8"></script>
+      <script src="assets.js" charset="utf-8"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
    </head>
-      <body>
-         <div class="container-fluid">
+   <body>
+      <div class="header row">
+         <div class="menu row">
+            <div class="menuItem" id="work">Work</div>
+            <div> // </div>
+            <div class="menuItem">Get in touch</div>
+            <div> // </div>
+            <div class="menuItem" id="about">About</div>
+         </div>
 
-            <!--Header section-->
-               <div id="header" class="text-center">
-                  <h2 class="textbigger">
-                     HI, I'M SAM !
-                  </h2>
-               <div id="headerPhoto">
-                  <img src="Photo2.png" alt="This is me" class="theimageborder img-responsive img-circle" />
-               </div>
-
-               </div>
-               <!--Header section end-->
-            <div id="bodycontainer">
-
-               <div class="flexcontainer">
-                  <h1><i class="fa fa-leanpub fa-3x flexitem" aria-hidden="true"></i></h1>
-                  <div class="flexitem">
-                     <div class="titletext text-right">
-                        Legal Disruptor
-                     </div>
-                     <div class="descriptiontext">
-                        <h4>The legal sector is living in the past.
-                           Working with <a href="#">start-ups such as LawBid</a>
-                           to bring Law firms into the world of
-                           tech and improve client satisfaction.
-                        </h4>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="flexcontainer">
-                  <div class="flexitem">
-                     <div class="titletext">
-                        Learning Law
-                     </div>
-                     <div class="descriptiontext">
-                        <h4>You can find my method for preparing for
-                        Law exams in a night <a href="#">here.</a>
-                        My writings on learning code and other languages
-                        <a href="#">on Medium.</a></h4>
-                     </div>
-                  </div>
-                  <h1><i class="fa fa-graduation-cap fa-3x flexitem" aria-hidden="true"></i></h1>
-               </div>
-
-               <div class="flexcontainer">
-                  <h1><i class="fa fa-laptop fa-3x flexitem" aria-hidden="true"></i></h1>
-                  <div class="flexitem">
-                     <div class="titletext text-right" id="lifeline">
-                        Coder
-                     </div>
-                     <div class="descriptiontext">
-                        <h4>Front-End developer. Aspiring to full-stack. <a href="#">Portfolio here.</a></h4>
-                     </div>
-                  </div>
-               </div>
-
-
-
-
+         <div class="social row">
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
          </div>
       </div>
-      </body>
+
+      <div class="galleryContainer row">
+         <div class="down"><</div>
+
+            <div class="leftImage"></div>
+            <div class="centreImage"></div>
+            <div class="rightImage"></div>
+
+         <div class="up">></div>
+      </div>
+      <div class="text">
+      </div>
+
+      <div class="aboutContainer row">
+         <img src="Photo2.png" class="myPic" alt="">
+         <div class="about">
+            <h4>I am Sam</h4>
+            <p>I am a self-taught, aspiring web developer.</p>
+            <p>I like solving complex problems & working with data.</p>
+            <p>I have learned HTML & CSS but I don't like desiging.</p>
+            <p>I enjoy working in Javascript and Node.js</p>
+            <p>I am currently learning about machine learning, neural networks and AI.</p>
+         </div>
+
+      </div>
+   </body>
 </html>
