@@ -222,7 +222,7 @@ input.send{
 
 .myPic{
    width: 400px;
-   height: auto;
+   height: 100%;
    margin-left: 50px;
 }
 
