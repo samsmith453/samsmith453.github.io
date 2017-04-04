@@ -1,8 +1,14 @@
 var pics = [
+
+   // when adding new assets: add new element here and also change the draggedIt function
+   // which currently presumes that if greater than 8, the index should reset to 0
+   // this will have to be increased to add more elements
+
+
    {
    url: "assets/minimaxPic.gif",
    title: "Minimax Noughts & Crosses",
-   text:"<p><p>Using a recursive \
+   text:"<p>Using a recursive \
    minimax algorithm the computer runs \
    through every possible outcome and \
    chooses the best move. This was a very challenging project \
@@ -48,11 +54,11 @@ var pics = [
    goToUrl: "https://codepen.io/samsmith453/full/LxZWPv/"
 },{
    url: "assets/chat.gif",
-   title: "Chat App",
+   title: "Node.js Chat App",
    text: "<p>I created this chat application to apply all of the knowledge I had acquired from my Node.js \
    learning thus far. It uses express.js to run a server, and Jade/Pug to render the page differently dependent \
    on who logs in. Log-in authentication is enabled with HTDigest encryption, and chat history is stored and loaded \
-   using MongoDB. Messages are sent and received using web socket technology.</p><p>I partiuclarly using Pug as a view \
+   using MongoDB. Messages are sent and received using web socket technology.</p><p>I particularly enjoyed using Pug as a view \
    engine, so that one page can be dynamically rendered differently using variables passed from the server.</p><p class='skills'>\
    Skills used: Node.js, Express.js, MongoDB, Web Sockets, Pug/Jade, HTDigest</p>",
    goTo: "Private",
