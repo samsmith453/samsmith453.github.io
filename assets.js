@@ -3,6 +3,7 @@ var pics = [
    // when adding new assets: add new element here and also change the draggedIt function
    // which currently presumes that if greater than 8, the index should reset to 0
    // this will have to be increased to add more elements
+   // and add it in index.html to the div
 
 
    {
@@ -63,5 +64,19 @@ var pics = [
    Skills used: Node.js, Express.js, MongoDB, Web Sockets, Pug/Jade, HTDigest</p>",
    goTo: "Private",
    goToUrl: ""
+},{
+     url: "assets/recog.gif",
+     title: "Written Number Recognition",
+     text: "<p>I built this number recognition as a preliminary glance into \
+     machine learning / artificial intelligence. The project analyses pixel alpha \
+     to represent the image as an array. By calculating the mean of the cluster for each character in a \
+     multi-dimensionsal format, the algorithm then calculates which cluster is most similar to the \
+     test character it is presented with.</p><p>The tests present answers slowly because of the high \
+     number of pixels analysed and the use of MongoDB which is accessed slowly by node. These issues \
+     could be overcome by using a lower resolution canvas, and by using a writable JSON file \
+     to store data instead of Mongo. The latter solution isn't implementable on Heroku however.</p><p class='skills'>\
+     Skills used: Node.js, Express.js, MongoDB, Web Sockets, multi-dimensional clustering algorithm.</p>",
+     goTo: "View on Heroku",
+     goToUrl: "https://firstcharrecog.herokuapp.com"
 }
 ];

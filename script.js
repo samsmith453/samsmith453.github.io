@@ -1,48 +1,5 @@
 var p = 0;
 
-// function keyPressed(){
-//    if(keyCode === LEFT_ARROW){
-//       p--;
-//       updatePic();
-//    }
-//    if(keyCode === RIGHT_ARROW){
-//       p++;
-//       updatePic();
-//    }
-// }
-
-// $(document).on("pagecreate", function(){
-//    $(".centreImage").on("swipeleft", function(){
-//       p++;
-//       updatePic();
-//    });
-//
-//    $(".centreImage").on("swiperight", function(){
-//       p--;
-//       updatePic();
-//    });
-//
-//    $(".up").tap(function(){
-//       p++;
-//       updatePic();
-//    });
-//
-//    $(".menuItem").tap(function(){
-//       var item = $(this).attr("id");
-//       if(item=="about"){
-//          $('html, body').animate({
-//             scrollTop: $("."+item).offset().top
-//          }, 600);
-//       }
-//
-//       if(item=="work"){
-//          $('html, body').animate({
-//             scrollTop: $(".galleryContainer").offset().top-100
-//          }, 300);
-//       }
-//    });
-// });
-
 $(document).ready(function(){
 
 
@@ -133,7 +90,7 @@ function draggedIt(event){
 
    // index begins at 3 for some reason
    // change this when adding future items
-   if(index==8) index = 3;
+   if(index==9) index = 3; // add one on to the if(index==X) X when new project added
    index-=3;
    updateText(index);
 }
